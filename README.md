@@ -27,3 +27,15 @@ This is a poorly written application, and we're expecting the candidate to great
   * Any movies showing on 7th, you'll get 1$ discount
   * The discount amount applied only one if met multiple rules; biggest amount one
 * We want to print the movie schedule with simple text & json format
+
+## New Features
+* Added new DiscountService 
+  * Ability to add/remove new discount rules without affecting the codebase
+  * Rules can be found in DiscountRules class
+* Added API to retrieve showings in json format. Could had used Jackson library, but figured that was an overkill
+* Added Jacoco plugin for better test coverage visualization, results in target/site/jacoco/index.html
+  * Tests should also be visible during mvn clean install
+* Added lombok to domain classes. Domain classes test coverage is down because of lombok, however is the getters/equals/toString methods that is bringing it down
+* Added a Bootstrap class as the entry point execution to the application, ApplicationBootstrap
+* Added a separate repository for movie data and validator bean
+* Reorganized classes into packages, this is just my personal preference
