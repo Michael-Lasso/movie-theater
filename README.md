@@ -39,3 +39,19 @@ This is a poorly written application, and we're expecting the candidate to great
 * Added a Bootstrap class as the entry point execution to the application, ApplicationBootstrap
 * Added a separate repository for movie data and validator bean
 * Reorganized classes into packages, this is just my personal preference
+  #TODO Code a web service for the Baggage problem
+# 1. A bag can be of sizes: SMALL and MEDIUM
+# 2. A storage locker can store two SMALL bags, or a single MEDIUM bag
+# 3. When storing a bag, the client will receive a ticket, that can be used to later retrieve the bag
+# 4. The total number of lockers is 20
+
+# Tips:
+# REST Method signature
+# OOP
+# Flow control
+# Complexity and efficiency
+# Testing
+
+
+# ////////////////////////////////////Code Below////////////////////////////////////
+
